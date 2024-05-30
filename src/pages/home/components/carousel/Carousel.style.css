@@ -1,0 +1,16 @@
+/* Estilos personalizados para el carrusel */
+.carousel-item {
+    height: 100vh; /* Ocupar el 100% de la altura de la pantalla */
+  }
+  
+  /* Ajustes específicos para dispositivos móviles */
+  @media (max-width: 768px) {
+    .carousel-item {
+      height: 50vh; /* Ocupar el 50% de la altura de la pantalla en dispositivos móviles */
+    }
+  }
+  
+  .object-fit-cover {
+    object-fit: cover; /* Mantener la proporción de la imagen mientras cubre el contenedor */
+  }
+  

@@ -1,4 +1,5 @@
 import React from "react";
+import './Carousel.style.css'; // Asegúrate de importar el CSS
 
 function Carousel() {
   return (
@@ -33,21 +34,21 @@ function Carousel() {
         <div className="carousel-item active">
           <img
             src="https://res.cloudinary.com/rawwshak/image/upload/v1717040498/papas_m0wrgs.png"
-            className="d-block w-100"
+            className="d-block w-100 h-100 object-fit-cover"
             alt="..."
           />
         </div>
         <div className="carousel-item">
           <img
             src="https://res.cloudinary.com/rawwshak/image/upload/v1717041008/hamgurguesComboa_d1kzqm.png"
-            className="d-block w-100"
+            className="d-block w-100 h-100 object-fit-cover"
             alt="..."
           />
         </div>
         <div className="carousel-item">
           <img
             src="https://res.cloudinary.com/rawwshak/image/upload/v1717041975/Sin_ti%CC%81tulo_4_thgpye.png"
-            className="d-block w-100"
+            className="d-block w-100 h-100 object-fit-cover"
             alt="..."
           />
         </div>

@@ -7,7 +7,7 @@ function App() {
     <AuthProvider>
       <Navbar />
       <Home/>
-      <Home/>
+      
     </AuthProvider>
   );
 }
