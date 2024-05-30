@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 function Carousel() {
   return (
@@ -29,7 +29,7 @@ function Carousel() {
           aria-label="Slide 3"
         ></button>
       </div>
-      <div className="carousel-inner" style={{ height: "100vh" }}>
+      <div className="carousel-inner">
         <div className="carousel-item active">
           <img
             src="https://res.cloudinary.com/rawwshak/image/upload/v1717040498/papas_m0wrgs.png"
@@ -71,7 +71,7 @@ function Carousel() {
         <span className="visually-hidden">Next</span>
       </button>
     </div>
-  )
+  );
 }
 
-export default Carousel
+export default Carousel;
