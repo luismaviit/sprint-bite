@@ -6,7 +6,7 @@
   /* Ajustes específicos para dispositivos móviles */
   @media (max-width: 768px) {
     .carousel-item {
-      height: 70vh; /* Ocupar el 50% de la altura de la pantalla en dispositivos móviles */
+      height: 80vh; /* Ocupar el 50% de la altura de la pantalla en dispositivos móviles */
     }
   }
   
