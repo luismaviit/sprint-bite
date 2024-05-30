@@ -20,7 +20,7 @@ function AboutUs() {
             en tu ciudad
           </h1>
           <p className="text-about-us">
-            ¡Bienvenidos a <b>¡Sprint Bite!</b>¡ Somos una cocina oculta
+            ¡Bienvenidos a <b>¡Sprint Bite!</b>Somos una cocina oculta
             <br />
             ubicada en la vibrante ciudad de Barranquilla, dedicada a ofrecerte
             <br />
@@ -32,7 +32,7 @@ function AboutUs() {
             <br />
             saludable y sabrosa. Descubre el sabor auténtico y natural en cada
             <br />
-            bocado, porque en <b>¡Sprint Bites</b>¡, tu bienestar es nuestra
+            bocado, porque en <b>¡Sprint Bites!</b>, tu bienestar es nuestra
             <br />
             prioridad.
             <br />{" "}
