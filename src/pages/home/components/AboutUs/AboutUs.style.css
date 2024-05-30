@@ -1,0 +1,26 @@
+.about-us-container {
+  background-image: url("https://res.cloudinary.com/rawwshak/image/upload/v1717084536/burger_bg_1_axmtai.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Puedes ajustar la altura según tus necesidades */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  width: 100%;
+}
+
+.col-2 {
+  border-radius: 10px;
+  text-align: left;
+}
+.tittle-about-us {
+  color: #f2c64d;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 18px;
+  display: block;
+  font-family: 'Raleway', sans-serif, cursive !important;
+}
