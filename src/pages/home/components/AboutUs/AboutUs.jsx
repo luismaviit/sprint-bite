@@ -10,11 +10,11 @@ function AboutUs() {
             en tu ciudad
           </h1>
           <p className="text-about-us">
-            ¡Bienvenidos a <b>¡Sprint Bite!</b>Somos una cocina oculta
+            ¡Bienvenidos a <b>¡Sprint Bite!</b> Somos una cocina oculta
             
             ubicada en la vibrante ciudad de Barranquilla, dedicada a ofrecerte
             
-            hamburguesas, salchipapas y pizzas deliciosas, 100% orgánicas.
+            comidas rapidas 100% orgánicas.
            
             Nuestra pasión es servir comida rápida de alta calidad, utilizando
            

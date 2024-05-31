@@ -5,7 +5,7 @@ const Video = () => {
   return (
     <section className="background-section">
       <video autoPlay loop muted className="background-video">
-        <source src="https://res.cloudinary.com/rawwshak/video/upload/v1717101136/1109982_Salt_Seasoning_Unknown_1280x720_al7wqp.mp4" type="video/mp4" />
+        <source src="https://res.cloudinary.com/rawwshak/video/upload/v1717190560/8879537-hd_1366_720_25fps_b9pxmm.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
      {/*  <div className="content">
