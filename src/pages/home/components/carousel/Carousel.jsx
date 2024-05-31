@@ -7,6 +7,7 @@ function Carousel() {
       id="carouselExampleIndicators"
       className="carousel slide"
       data-bs-ride="carousel"
+      style={{width:"100%"}}
     >
       <div className="carousel-indicators">
         <button
