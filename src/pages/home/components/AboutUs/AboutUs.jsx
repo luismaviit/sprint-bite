@@ -28,7 +28,7 @@ function AboutUs() {
             
             <b>¡Ordena hoy y disfruta de una comida única y consciente!</b>
           </p>
-          <button className="button-menu">Ver menu <i class="bi bi-file-text"></i></button>
+          <button className="button-menu">Ver menu <i className="bi bi-file-text"></i></button>
         
     
     </div>

@@ -2,6 +2,8 @@ import React from "react";
 import Carousel from "./components/carousel/Carousel";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Video from "./components/Video/Video";
+import UsersComments from "./components/UsersComments/UsersComments";
+import Footer from "./components/footer/Footer";
 import "./Home.style.css";
 function Home() {
   return (
@@ -18,19 +20,23 @@ function Home() {
               className="responsive-image"
             />
           </div>
-      
+
           <div className="col-lg-6  col-md-12">
             <AboutUs />
           </div>
         </div>
         <div className="row">
-          <div className="col"><Video/></div>
+          <div className="col">
+            <Video />
+          </div>
+        </div>
+        <div>
+          <UsersComments />
         </div>
         <div className="row">
-          <div className="col">comentarios</div>
-        </div>
-        <div className="row">
-          <div className="col">footer</div>
+          <div className="col" >
+            <Footer />
+          </div>
         </div>
       </div>
     </div>
