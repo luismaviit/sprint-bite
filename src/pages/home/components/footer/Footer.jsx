@@ -53,7 +53,7 @@ function Footer() {
         </div>
         <div
           className="text-center text-dark p-3"
-          style={{ backgroundColor: "rgba(0, 0, 0, 0.2);=" }}
+          style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
         >
           Design by
           <a className="text-dark" href="https://github.com/luismaviit">

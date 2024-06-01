@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import Modal from "../modal/Modal";
 import "./NavBar.style.css";
 
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -19,6 +22,12 @@ function Navbar() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+  function handleNavigateMenu() {
+    navigate("/menu");
+  }
+  function handleNavigateHome() {
+    navigate("/home");
+  }
 
   return (
     <nav
@@ -48,20 +57,25 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+            <li className="nav-item" style={{ cursor: "pointer" }}>
+              <a
+                className="nav-link active"
+                aria-current="page"
+                onClick={handleNavigateHome}
+              >
                 Home
               </a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
+            <li className="nav-item" style={{ cursor: "pointer" }}>
+              <a className="nav-link" onClick={handleNavigateMenu}>
                 Menu
               </a>
             </li>
           </ul>
-          <div className="cart-icon-wrapper">
+          <Modal/>
+          {/* <div className="cart-icon-wrapper">
             <i className="bi bi-cart-fill"></i>
-          </div>
+          </div> */}
         </div>
       </div>
     </nav>
